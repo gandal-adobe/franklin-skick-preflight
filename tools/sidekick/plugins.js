@@ -12,15 +12,6 @@ const preflight = ({ detail }) => {
   console.log('location.pathname: ' + sk.location.pathname);
   console.log(window.hlx);
 
-  //document.querySelector('helix-sidekick').shadowRoot.querySelector('.hlx-sk').classList.toggle('hlx-sk-hidden')
-  const reloadEl = document.querySelector('helix-sidekick').shadowRoot.querySelector('.reload');
-  console.log(reloadEl);
-
-  const reloadButton = reloadEl.firstElementChild;
-  console.log(reloadButton);
-
-  //reloadButton.click();
-
   // Publish
   const publishEl = document.querySelector('helix-sidekick').shadowRoot.querySelector('.publish');
   console.log(publishEl);
